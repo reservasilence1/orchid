@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advanced Orchid Guide</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<section class="upsell">
+  <div class="container">
+
+    <h1>Additional Learning Opportunity</h1>
+
+    <p class="subtitle">
+      You now have access to the foundational orchid care guide.
+    </p>
+
+    <p class="subtitle">
+      If you would like to deepen your understanding, we also provide
+      an additional material with more detailed explanations.
+    </p>
+
+    <div class="box">
+      <h2>Advanced Orchid Care Manual</h2>
+
+      <p>
+        This complementary guide expands on the concepts presented in the main material.
+        It was designed for readers who prefer a more complete and structured understanding
+        of orchid care.
+      </p>
+
+      <ul>
+        <li>✔ Additional explanations about watering and light balance</li>
+        <li>✔ Practical examples of common care situations</li>
+        <li>✔ Guidance for maintaining plant health over time</li>
+        <li>✔ General recommendations based on cultivation practices</li>
+      </ul>
+
+      <p class="note">
+        This material is optional and intended for those who wish to go further.
+      </p>
+
+      <div class="price">$17 — One-time access</div>
+
+      <div class="buttons">
+        <button class="accept" id="acceptBtn">Add this material</button>
+        <button class="decline" id="declineBtn">Continue without it</button>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="footer-links">
+    <a onclick="openModal('terms')">Terms of Use</a>
+    <a onclick="openModal('privacy')">Privacy Policy</a>
+    <a onclick="openModal('refund')">Refund Policy</a>
+  </div>
+</footer>
+
+<div class="modal" id="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">×</span>
+    <div id="modalText"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
