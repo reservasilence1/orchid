@@ -37,7 +37,7 @@ function openModal(type){
 <p>This refund policy applies only if this website is connected to a paid product, digital guide, course, or service.</p>
 
 <h3>Refund Window</h3>
-<p>Refund requests may be accepted within 7 days of purchase, unless a different refund period is clearly stated at checkout.</p>
+<p>Refund requests may be accepted within 60 days of purchase, unless a different refund period is clearly stated at checkout.</p>
 
 <h3>Eligibility</h3>
 <p>To request a refund, customers may need to provide proof of purchase and a brief explanation of the issue.</p>
