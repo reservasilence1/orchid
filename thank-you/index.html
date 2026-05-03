@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Thank You | Modern System</title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <div class="bg-shape shape-one"></div>
+  <div class="bg-shape shape-two"></div>
+
+  <main class="thank-page">
+
+    <section class="thank-card">
+
+      <div class="success-animation">
+        <div class="ring"></div>
+        <div class="checkmark">✓</div>
+      </div>
+
+      <span class="badge">Purchase Confirmed</span>
+
+      <h1>Thank you for your order</h1>
+
+      <p class="lead">
+        Your access has been successfully processed.
+      </p>
+
+      <div class="email-box">
+        <div class="email-icon">✉</div>
+        <div>
+          <h2>Access sent by email</h2>
+          <p>
+            The access instructions have been sent to the email address used during checkout.
+            Please check your inbox and, if needed, your spam or promotions folder.
+          </p>
+        </div>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <span>01</span>
+          <p>Open your email inbox</p>
+        </div>
+
+        <div class="step">
+          <span>02</span>
+          <p>Search for your Modern System access message</p>
+        </div>
+
+        <div class="step">
+          <span>03</span>
+          <p>Follow the instructions to access your material</p>
+        </div>
+      </div>
+
+      <div class="soft-note">
+        <strong>Important:</strong>
+        Delivery time may vary slightly depending on your email provider. If you do not see the message immediately, wait a few minutes and refresh your inbox.
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-brand">Modern System</div>
+
+    <div class="footer-links">
+      <a onclick="openModal('terms')">Terms of Use</a>
+      <a onclick="openModal('privacy')">Privacy Policy</a>
+      <a onclick="openModal('refund')">Refund Policy</a>
+    </div>
+
+    <p>© 2026 Modern System. All rights reserved.</p>
+  </footer>
+
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <button class="close" onclick="closeModal()">×</button>
+      <div id="modalText"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
