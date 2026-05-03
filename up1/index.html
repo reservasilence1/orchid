@@ -5,7 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Advanced Orchid Guide</title>
 <link rel="stylesheet" href="/up1/styles.css">
+
+<script src="https://www.digistore24-scripts.com/service/digistore.js"></script>
+<script>digistoreUpsell()</script>
 </head>
+
 <body>
 
 <section class="upsell">
@@ -45,8 +49,21 @@
       <div class="price">$17 — One-time access</div>
 
       <div class="buttons">
-        <button class="accept" id="acceptBtn">Add this material</button>
-        <button class="decline" id="declineBtn">Continue without it</button>
+        <a 
+          href="https://www.checkout-ds24.com/answer/yes?template=light" 
+          class="accept" 
+          id="acceptBtn"
+        >
+          Add this material
+        </a>
+
+        <a 
+          href="https://www.checkout-ds24.com/answer/no" 
+          class="decline" 
+          id="declineBtn"
+        >
+          Continue without it
+        </a>
       </div>
 
     </div>
