@@ -18,6 +18,70 @@
       transform: none !important;
       visibility: visible !important;
     }
+
+    .social-proof {
+      padding: 80px 0;
+    }
+
+    .testimonials {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 24px;
+      margin-top: 36px;
+    }
+
+    .testimonial-card {
+      width: 100%;
+      height: 100%;
+    }
+
+    .testimonial-card .customer {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .avatar-img {
+      width: 52px;
+      height: 52px;
+      min-width: 52px;
+      min-height: 52px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+      overflow: hidden;
+    }
+
+    .testimonial-card .customer div {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.25;
+    }
+
+    .testimonial-card .customer b {
+      display: block;
+    }
+
+    .testimonial-card .customer span {
+      display: block;
+      font-size: 14px;
+      opacity: 0.75;
+    }
+
+    @media (max-width: 900px) {
+      .testimonials {
+        grid-template-columns: 1fr;
+      }
+
+      .avatar-img {
+        width: 48px;
+        height: 48px;
+        min-width: 48px;
+        min-height: 48px;
+      }
+    }
   </style>
 </head>
 
@@ -119,49 +183,37 @@
           <article class="info-card reveal">
             <div class="icon">☀️</div>
             <h3>Bright indirect light</h3>
-            <p>
-              Most orchids prefer bright, filtered light. Direct harsh sunlight may burn the leaves, while low light can reduce blooming.
-            </p>
+            <p>Most orchids prefer bright, filtered light. Direct harsh sunlight may burn the leaves, while low light can reduce blooming.</p>
           </article>
 
           <article class="info-card reveal">
             <div class="icon">💧</div>
             <h3>Balanced watering</h3>
-            <p>
-              Avoid watering on a fixed calendar only. Check the potting medium first and water when it is almost dry.
-            </p>
+            <p>Avoid watering on a fixed calendar only. Check the potting medium first and water when it is almost dry.</p>
           </article>
 
           <article class="info-card reveal">
             <div class="icon">🌬️</div>
             <h3>Air circulation</h3>
-            <p>
-              Healthy airflow helps reduce fungal issues and keeps roots stronger, especially in humid environments.
-            </p>
+            <p>Healthy airflow helps reduce fungal issues and keeps roots stronger, especially in humid environments.</p>
           </article>
 
           <article class="info-card reveal">
             <div class="icon">🌿</div>
             <h3>Root health</h3>
-            <p>
-              Orchid roots need oxygen. A breathable potting mix, proper drainage, and clean containers are essential.
-            </p>
+            <p>Orchid roots need oxygen. A breathable potting mix, proper drainage, and clean containers are essential.</p>
           </article>
 
           <article class="info-card reveal">
             <div class="icon">🌡️</div>
             <h3>Stable temperature</h3>
-            <p>
-              Avoid extreme heat, cold drafts, and sudden environmental changes. Stability helps orchids recover and bloom.
-            </p>
+            <p>Avoid extreme heat, cold drafts, and sudden environmental changes. Stability helps orchids recover and bloom.</p>
           </article>
 
           <article class="info-card reveal">
             <div class="icon">✨</div>
             <h3>Gentle consistency</h3>
-            <p>
-              Orchids reward patient care. Small, consistent actions are usually better than aggressive changes.
-            </p>
+            <p>Orchids reward patient care. Small, consistent actions are usually better than aggressive changes.</p>
           </article>
         </div>
       </div>
@@ -172,66 +224,22 @@
         <div class="panel reveal">
           <div class="section-title">
             <h2>A simple weekly orchid routine</h2>
-            <p>
-              A clear routine helps prevent the most common mistakes: overwatering, lack of light, poor airflow, and neglected roots.
-            </p>
+            <p>A clear routine helps prevent the most common mistakes: overwatering, lack of light, poor airflow, and neglected roots.</p>
           </div>
 
           <div class="check-list">
-            <div class="check">
-              <span>✓</span>
-              <div><b>Check the roots:</b> healthy roots are usually firm. Soft, dark, or mushy roots may indicate excess moisture.</div>
-            </div>
-
-            <div class="check">
-              <span>✓</span>
-              <div><b>Observe the leaves:</b> yellowing, spots, or wrinkling can reveal lighting or watering imbalance.</div>
-            </div>
-
-            <div class="check">
-              <span>✓</span>
-              <div><b>Rotate the pot:</b> gentle rotation helps the plant receive more even light exposure.</div>
-            </div>
-
-            <div class="check">
-              <span>✓</span>
-              <div><b>Clean the area:</b> remove fallen flowers, dry leaves, and stagnant water around the pot.</div>
-            </div>
+            <div class="check"><span>✓</span><div><b>Check the roots:</b> healthy roots are usually firm. Soft, dark, or mushy roots may indicate excess moisture.</div></div>
+            <div class="check"><span>✓</span><div><b>Observe the leaves:</b> yellowing, spots, or wrinkling can reveal lighting or watering imbalance.</div></div>
+            <div class="check"><span>✓</span><div><b>Rotate the pot:</b> gentle rotation helps the plant receive more even light exposure.</div></div>
+            <div class="check"><span>✓</span><div><b>Clean the area:</b> remove fallen flowers, dry leaves, and stagnant water around the pot.</div></div>
           </div>
         </div>
 
         <div class="timeline reveal">
-          <div class="step">
-            <div class="number">01</div>
-            <div>
-              <h3>Morning light check</h3>
-              <p>Place the orchid near a bright window where it receives filtered light, not direct burning sun.</p>
-            </div>
-          </div>
-
-          <div class="step">
-            <div class="number">02</div>
-            <div>
-              <h3>Moisture inspection</h3>
-              <p>Touch or inspect the potting medium. Water only when the plant actually needs it.</p>
-            </div>
-          </div>
-
-          <div class="step">
-            <div class="number">03</div>
-            <div>
-              <h3>Environment balance</h3>
-              <p>Keep airflow gentle, avoid closed damp spaces, and maintain a stable indoor temperature.</p>
-            </div>
-          </div>
-
-          <div class="step">
-            <div class="number">04</div>
-            <div>
-              <h3>Bloom support</h3>
-              <p>After flowers fall, continue care. Many orchids can bloom again when the plant remains healthy.</p>
-            </div>
-          </div>
+          <div class="step"><div class="number">01</div><div><h3>Morning light check</h3><p>Place the orchid near a bright window where it receives filtered light, not direct burning sun.</p></div></div>
+          <div class="step"><div class="number">02</div><div><h3>Moisture inspection</h3><p>Touch or inspect the potting medium. Water only when the plant actually needs it.</p></div></div>
+          <div class="step"><div class="number">03</div><div><h3>Environment balance</h3><p>Keep airflow gentle, avoid closed damp spaces, and maintain a stable indoor temperature.</p></div></div>
+          <div class="step"><div class="number">04</div><div><h3>Bloom support</h3><p>After flowers fall, continue care. Many orchids can bloom again when the plant remains healthy.</p></div></div>
         </div>
       </div>
     </section>
@@ -240,35 +248,14 @@
       <div class="wrap">
         <div class="section-title center reveal">
           <h2>Popular orchid types to know</h2>
-          <p>
-            Different orchids have different personalities. Understanding the type helps you care for it with more precision.
-          </p>
+          <p>Different orchids have different personalities. Understanding the type helps you care for it with more precision.</p>
         </div>
 
         <div class="species-grid">
-          <div class="species-card reveal">
-            <div class="emoji">🌺</div>
-            <h3>Phalaenopsis</h3>
-            <p>One of the most popular indoor orchids. Known for long-lasting blooms and beginner-friendly care.</p>
-          </div>
-
-          <div class="species-card reveal">
-            <div class="emoji">🌼</div>
-            <h3>Cattleya</h3>
-            <p>Famous for large, fragrant flowers. Often appreciated by collectors and orchid enthusiasts.</p>
-          </div>
-
-          <div class="species-card reveal">
-            <div class="emoji">🌸</div>
-            <h3>Dendrobium</h3>
-            <p>A diverse group with elegant stems and beautiful flowering patterns. Care varies by variety.</p>
-          </div>
-
-          <div class="species-card reveal">
-            <div class="emoji">🪴</div>
-            <h3>Oncidium</h3>
-            <p>Often called dancing-lady orchids. They usually enjoy bright light and consistent care.</p>
-          </div>
+          <div class="species-card reveal"><div class="emoji">🌺</div><h3>Phalaenopsis</h3><p>One of the most popular indoor orchids. Known for long-lasting blooms and beginner-friendly care.</p></div>
+          <div class="species-card reveal"><div class="emoji">🌼</div><h3>Cattleya</h3><p>Famous for large, fragrant flowers. Often appreciated by collectors and orchid enthusiasts.</p></div>
+          <div class="species-card reveal"><div class="emoji">🌸</div><h3>Dendrobium</h3><p>A diverse group with elegant stems and beautiful flowering patterns. Care varies by variety.</p></div>
+          <div class="species-card reveal"><div class="emoji">🪴</div><h3>Oncidium</h3><p>Often called dancing-lady orchids. They usually enjoy bright light and consistent care.</p></div>
         </div>
       </div>
     </section>
@@ -277,108 +264,74 @@
       <div class="wrap split">
         <div class="section-title reveal">
           <h2>Common orchid mistakes that stop blooming</h2>
-          <p>
-            Many orchid problems are not caused by lack of effort. They usually come from applying the wrong type of care.
-          </p>
+          <p>Many orchid problems are not caused by lack of effort. They usually come from applying the wrong type of care.</p>
         </div>
 
         <div class="panel reveal">
           <div class="check-list">
-            <div class="check">
-              <span>!</span>
-              <div><b>Overwatering:</b> one of the fastest ways to damage orchid roots and weaken the plant.</div>
-            </div>
-
-            <div class="check">
-              <span>!</span>
-              <div><b>Too little light:</b> orchids may stay alive, but they may not have enough energy to bloom.</div>
-            </div>
-
-            <div class="check">
-              <span>!</span>
-              <div><b>Poor drainage:</b> standing water can create root problems and unpleasant odor.</div>
-            </div>
-
-            <div class="check">
-              <span>!</span>
-              <div><b>Constant moving:</b> changing the plant location too often may stress the orchid.</div>
-            </div>
+            <div class="check"><span>!</span><div><b>Overwatering:</b> one of the fastest ways to damage orchid roots and weaken the plant.</div></div>
+            <div class="check"><span>!</span><div><b>Too little light:</b> orchids may stay alive, but they may not have enough energy to bloom.</div></div>
+            <div class="check"><span>!</span><div><b>Poor drainage:</b> standing water can create root problems and unpleasant odor.</div></div>
+            <div class="check"><span>!</span><div><b>Constant moving:</b> changing the plant location too often may stress the orchid.</div></div>
           </div>
         </div>
       </div>
     </section>
 
-   <article class="testimonial-card reveal">
-  <div class="stars">★★★★★</div>
-  <p>
-    “I always thought orchids were too difficult to keep alive. The eBook made everything feel much clearer and less intimidating.”
-  </p>
-  <div class="customer">
-    <img 
-      src="/images/user1.png" 
-      alt="Emily Carter" 
-      class="avatar-img"
-      loading="lazy"
-      onerror="this.src='/images/default-avatar.jpg'"
-    >
-    <div>
-      <b>Emily Carter</b>
-      <span>Home plant enthusiast</span>
-    </div>
-  </div>
-</article>
+    <section id="proof" class="social-proof">
+      <div class="wrap">
+        <div class="section-title center reveal">
+          <h2>Real impressions from orchid lovers</h2>
+          <p>People who accessed the eBook report clearer understanding and more consistent care routines.</p>
+        </div>
 
-<article class="testimonial-card reveal">
-  <div class="stars">★★★★★</div>
-  <p>
-    “The section about watering helped me realize I was giving my orchid too much water. After adjusting, the roots started looking healthier.”
-  </p>
-  <div class="customer">
-    <img 
-      src="/images/user2.png" 
-      alt="Michael Reed" 
-      class="avatar-img"
-      loading="lazy"
-      onerror="this.src='/images/default-avatar.jpg'"
-    >
-    <div>
-      <b>Michael Reed</b>
-      <span>Beginner orchid owner</span>
-    </div>
-  </div>
-</article>
+        <div class="testimonials">
+          <article class="testimonial-card reveal">
+            <div class="stars">★★★★★</div>
+            <p>“I always thought orchids were too difficult to keep alive. The eBook made everything feel much clearer and less intimidating.”</p>
+            <div class="customer">
+              <img src="/images/user1.png" alt="Emily Carter" class="avatar-img" loading="lazy" onerror="this.src='/images/default-avatar.jpg'">
+              <div>
+                <b>Emily Carter</b>
+                <span>Home plant enthusiast</span>
+              </div>
+            </div>
+          </article>
 
-<article class="testimonial-card reveal">
-  <div class="stars">★★★★★</div>
-  <p>
-    “Beautiful design and very practical information. I liked how the tips are simple, organized, and easy to follow every week.”
-  </p>
-  <div class="customer">
-    <img 
-      src="/images/user3.png" 
-      alt="Sophia Bennett" 
-      class="avatar-img"
-      loading="lazy"
-      onerror="this.src='/images/default-avatar.jpg'"
-    >
-    <div>
-      <b>Sophia Bennett</b>
-      <span>Indoor garden lover</span>
-    </div>
-  </div>
-</article>
+          <article class="testimonial-card reveal">
+            <div class="stars">★★★★★</div>
+            <p>“The section about watering helped me realize I was giving my orchid too much water. After adjusting, the roots started looking healthier.”</p>
+            <div class="customer">
+              <img src="/images/user2.png" alt="Michael Reed" class="avatar-img" loading="lazy" onerror="this.src='/images/default-avatar.jpg'">
+              <div>
+                <b>Michael Reed</b>
+                <span>Beginner orchid owner</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal">
+            <div class="stars">★★★★★</div>
+            <p>“Beautiful design and very practical information. I liked how the tips are simple, organized, and easy to follow every week.”</p>
+            <div class="customer">
+              <img src="/images/user3.png" alt="Sophia Bennett" class="avatar-img" loading="lazy" onerror="this.src='/images/default-avatar.jpg'">
+              <div>
+                <b>Sophia Bennett</b>
+                <span>Indoor garden lover</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
     <section id="access" class="access-section">
       <div class="wrap">
         <div class="access-box reveal">
           <div class="access-content">
             <div class="eyebrow">📘 Digital Orchid Care eBook</div>
-
             <h2>Get access to the Modern System eBook.</h2>
-
-            <p>
-              A structured digital eBook inspired by traditional orchid cultivation books — simplified for everyday people who want to care for orchids at home with more confidence.
-            </p>
+            <p>A structured digital eBook inspired by traditional orchid cultivation books — simplified for everyday people who want to care for orchids at home with more confidence.</p>
 
             <div class="access-list">
               <div><span>✓</span><p>Step-by-step orchid care principles in eBook format.</p></div>
@@ -391,18 +344,10 @@
 
           <div class="price-panel">
             <div class="price-label">Digital eBook · One-time access</div>
-
             <div class="price">$24</div>
-
-            <p>
-              Instant access to the complete Modern System orchid care eBook. Delivered digitally after purchase.
-            </p>
-
+            <p>Instant access to the complete Modern System orchid care eBook. Delivered digitally after purchase.</p>
             <button type="button" class="btn no-redirect" id="getInstantAccessBtn">Get Instant Access</button>
-
-            <div class="safe-note">
-              7-day satisfaction guarantee · Beginner-friendly · Digital delivery via email
-            </div>
+            <div class="safe-note">7-day satisfaction guarantee · Beginner-friendly · Digital delivery via email</div>
           </div>
         </div>
       </div>
@@ -417,43 +362,23 @@
 
         <div class="faq">
           <div class="faq-item reveal active">
-            <button class="faq-question" type="button">
-              Is this a physical product?
-              <span>+</span>
-            </button>
-            <div class="faq-answer">
-              No. Modern System is a digital eBook. Access is delivered digitally after purchase.
-            </div>
+            <button class="faq-question" type="button">Is this a physical product?<span>+</span></button>
+            <div class="faq-answer">No. Modern System is a digital eBook. Access is delivered digitally after purchase.</div>
           </div>
 
           <div class="faq-item reveal">
-            <button class="faq-question" type="button">
-              How often should I water my orchid?
-              <span>+</span>
-            </button>
-            <div class="faq-answer">
-              It depends on the environment, pot size, and potting medium. In general, water when the medium is nearly dry instead of following a rigid schedule.
-            </div>
+            <button class="faq-question" type="button">How often should I water my orchid?<span>+</span></button>
+            <div class="faq-answer">It depends on the environment, pot size, and potting medium. In general, water when the medium is nearly dry instead of following a rigid schedule.</div>
           </div>
 
           <div class="faq-item reveal">
-            <button class="faq-question" type="button">
-              Can beginners use this eBook?
-              <span>+</span>
-            </button>
-            <div class="faq-answer">
-              Yes. The eBook was written for beginners and uses simple, practical language.
-            </div>
+            <button class="faq-question" type="button">Can beginners use this eBook?<span>+</span></button>
+            <div class="faq-answer">Yes. The eBook was written for beginners and uses simple, practical language.</div>
           </div>
 
           <div class="faq-item reveal">
-            <button class="faq-question" type="button">
-              Can orchids bloom again?
-              <span>+</span>
-            </button>
-            <div class="faq-answer">
-              Yes. Many orchids can rebloom when they receive proper light, consistent care, healthy roots, and enough recovery time after flowering.
-            </div>
+            <button class="faq-question" type="button">Can orchids bloom again?<span>+</span></button>
+            <div class="faq-answer">Yes. Many orchids can rebloom when they receive proper light, consistent care, healthy roots, and enough recovery time after flowering.</div>
           </div>
         </div>
       </div>
@@ -462,9 +387,7 @@
     <section class="cta-band">
       <div class="wrap reveal">
         <h2>Start learning orchid care with this eBook today.</h2>
-        <p>
-          Get access to the Modern System eBook for $24 and learn the simple foundations behind healthy orchid care.
-        </p>
+        <p>Get access to the Modern System eBook for $24 and learn the simple foundations behind healthy orchid care.</p>
         <a href="#access" class="btn btn-primary">Get eBook Access for $24</a>
       </div>
     </section>
